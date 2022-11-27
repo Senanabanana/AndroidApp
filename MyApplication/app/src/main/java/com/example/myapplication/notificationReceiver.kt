@@ -9,9 +9,9 @@ import android.content.Context
 import android.content.Intent
 
 
-/*class notificationReceiver {
+class notificationReceiver {
 
-    override fun onReceive(context: Context, intent: Intent) {
+    fun onReceive(context: Context, intent: Intent) {
      val notificationBuild = NotificationCompat.Builder(this, "AlarmId")
      .setSmallIcon(R.mipmap.ic_launcher)
      .setContentTitle("Alarm")
@@ -21,4 +21,3 @@ import android.content.Intent
      .setPriority(NotificationCompat.PRIORITY_DEFAULT)
      .setAutoCancel(true)
     }
-}*/
